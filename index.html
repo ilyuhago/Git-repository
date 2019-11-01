@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="css/reset-style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/column-left.css">
+	<link rel="stylesheet" href="css/colimn-center.css">
+	<link rel="stylesheet" href="css/column-right.css">
+	<link rel="stylesheet" href="css/column-bottnom.css">
+	<link rel="stylesheet" href="css/footer.css">
+
+	<link rel="shortcut icon" type="image/png" href="img/internet_logo.png" />
+
+	<title>Новостное агенство</title>
+
+</head>
+
+<body>
+	<header class="wrapper-header-box">
+		<div class="black-bar-box">
+
+			<div class="black-bar-wrapper">
+				<h1 class="title-cite">Самые <a class="news-link" href="#">свежие новости</a> в реальном времени</h1>
+				<time class="todays-date-and-time" datetime="2019-06-19T12:30">12:30 19-06-2019</time>
+			</div>
+
+		</div>
+		
+		<div class="header-fixed">
+			<!--элементы шапки-->
+			<div class="header-items">
+
+					<img class="logo" src="../img/logo.png" alt="лого">
+				<!--выбор города-->
+				<a class="city-select" href="#">Москва</a>
+				<!--кнопка развернуть список городов-->
+				<button class="list-city"></button>
+				<!--дата и время-->
+				<time class="header-date-time" datetime="2019-06-19T10:48">
+					<span class="date">19 июня, вторник</span>
+
+					<!--иконка часов-->
+					<span class="icon-time"></span>
+					<!--время-->
+					<span class="time">10:48</span>
+
+				</time>
+
+				<!--иконка погоды-->
+				<span class="cloudy-icon"></span>
+				<!--погода-->
+				<div class="cloudy"> +22 &#8451;</div>
+
+				<!--поиск по сайту-->
+				<div class="cite-search-box">
+					<form action="#" name="cite-search-form">
+						<input class="cite-search" type="text" name="search" placeholder="поиск по сайту">
+						<button class="btm-search" type="submit" aria-label="кнопка поиск"></button>
+					</form>
+				</div>
+
+			</div>
+			<!--элементы шапки конец-->
+
+			<!--главное меню-->
+			<nav class="main-menu-container">
+				<ul class="main-menu">
+					<li class="main after"><a  href="#">Главная</a></li>
+					<li class="politics after"><a href="#">Политика</a></li>
+					<li class="society after"><a href="#">Общество</a></li>
+					<li class="economic after"><a href="#">Экономика</a></li>
+					<li class="in-the-world after"><a href="#">В мире</a></li>
+					<li class="incidents after"><a href="#">Проишествия</a></li>
+					<li class="sport after"><a href="#">Спорт</a></li>
+					<li class="science after"><a href="#">Наука</a></li>
+					<li class="travels"><a href="#">Туризм</a></li>
+				</ul>
+			</nav>
+		</div>
+
+	</header>
+
+	<main class="central-container">
+		<!--начало обертки-->
+		<div class="fixed-container">
+			<!--начало левой колонки-->
+			<section class="column-left">
+				<!--заголовок секции левой колонки-->
+				<h2 class="title_daily-news">Новости дня</h2>
+				<!--начало списка статей левой колонки-->
+				<ul class="column-left_list-state">
+					<li>
+						<!--статья 1-->
+						<article class="news-item">
+							<!--заголовок статьи-->
+							<h3 class="news-item-title">
+								<a href="" class="state-link">
+									Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
+								</a>
+							</h3>
+							<!--дополнительные элементы-->
+							<article class="news-item-props">
+
+								<header>
+									<h2 class="title__section">info-publication</h2>
+								</header>
+								<!--сылка на рубрику-->
+								<a href="#" class="link-heading">/ ЧМ по футболу</a>
+
+								<div class="news-item-props__box">
+									<!--иконка времени публикаци-->
+									<span class="iconTime_columnLeft iconTime_style-1"></span>
+									<!--дата публикации-->
+									<time class="date-time date-position1" datetime="10:45">10:45</time>
+
+									<!--иконка комментариев-->
+									<span class="iconComments_columnLeft"></span>
+									<!--счетчик комментариев-->
+									<span class="news-comments-count-left comments-position1">17</span>
+								</div>
+
+							</article>
+
+						</article>
+					</li>
+
+					<li>
+						<!--статья 2-->
+						<article class="news-item">
+
+							<h3 class="news-item-title">
+								<a href="" class="state-link">
+									Минтранс предписал оборудовать общественный транспорт кондиционерами
+								</a>
+							</h3>
+
+							<article class="news-item-props">
+								<header>
+									<h2 class="title__section">info-publication</h2>
+								</header>
+
+								<a href="#" class="link-heading">/ Транспорт</a>
+
+								<div class="news-item-props__box">
+									<!--иконка времени публикаци-->
+									<span class="iconTime_columnLeft iconTime_style-2"></span>
+									<time class="date-time date-position2" datetime="10:45">10:45</time>
+									<!--иконка комментариев-->
+									<span class="iconComments_columnLeft"></span>
+									<span class="news-comments-count-left comments-position2">17</span>
+								</div>
+
+							</article>
+
+						</article>
+					</li>
+
+					<li>
+						<!--статья 3-->
+						<article class="news-item">
+
+							<h3 class="news-item-title">
+								<a href="" class="state-link">
+									«Нафтогаз»: суд разрешил заморозить активы «Газпрома» в Великобритании
+								</a>
+							</h3>
+
+							<article class="news-item-props">
+
+								<header>
+									<h2 class="title__section">info-publication</h2>
+								</header>
+
+								<a href="#" class="link-heading">/ Политика</a>
+
+								<div class="news-item-props__box">
+									<!--иконка времени публикаци-->
+									<span class="iconTime_columnLeft iconTime_style-2"></span>
+									<time class="date-time date-position2" datetime="10:45">10:45</time>
+									<!--иконка комментариев-->
+									<span class="iconComments_columnLeft"></span>
+									<span class="news-comments-count-left comments-position2">17</span>
+								</div>
+
+							</article>
+						</article>
+					</li>
+
+					<li>
+						<!--статья 4-->
+						<article class="news-item">
+							<h3 class="news-item-title">
+								<a href="" class="state-link">
+									Летние кафе Москвы временно закроются из-за непогоды
+								</a>
+							</h3>
+
+							<article class="news-item-props">
+
+								<header>
+									<h2 class="title__section">info-publication</h2>
+								</header>
+
+								<a href="#" class="link-heading">/ Погода</a>
+
+								<div class="news-item-props__box">
+									<!--иконка времени публикаци-->
+									<span class="iconTime_columnLeft iconTime_style-2"></span>
+									<time class="date-time date-position2" datetime="10:45">10:45</time>
+									<!--иконка комментариев-->
+									<span class="iconComments_columnLeft"></span>
+									<span class="news-comments-count-left comments-position2">17</span>
+								</div>
+
+							</article>
+						</article>
+					</li>
+
+					<li>
+						<!--статья 5-->
+						<article class="news-item">
+							<h3 class="news-item-title">
+								<a href="" class="state-link">
+									Комплексное благоустройство Щелковского шоссе завершится в июне
+								</a>
+							</h3>
+
+							<article class="news-item-props">
+
+								<header>
+									<h2 class="title__section">Заголовок</h2>
+								</header>
+
+								<a href="#" class="link-heading">/ Транспорт</a>
+
+								<div class="news-item-props__box">
+									<!--иконка времени публикаци-->
+									<span class="iconTime_columnLeft iconTime_style-2"></span>
+									<time class="date-time date-position2" datetime="10:45">10:45</time>
+									<!--иконка комментариев-->
+									<span class="iconComments_columnLeft"></span>
+									<span class="news-comments-count-left comments-position2">17</span>
+								</div>
+
+							</article>
+						</article>
+					</li>
+
+					<li>
+						<!--статья 6-->
+						<article class="news-item">
+							<h3 class="news-item-title">
+								<a href="" class="state-link">
+									В Москве назвали самое популярное мороженое у болельщиков ЧМ-2018
+								</a>
+							</h3>
+
+							<article class="news-item-props">
+
+								<header>
+									<h2 class="title__section">info-publication</h2>
+								</header>
+
+								<a href="#" class="link-heading">/ Транспорт</a>
+
+								<div class="news-item-props__box">
+									<!--иконка времени публикаци-->
+									<span class="iconTime_columnLeft iconTime_style-2"></span>
+									<time class="date-time date-position2" datetime="10:45">10:45</time>
+									<!--иконка комментариев-->
+									<span class="iconComments_columnLeft"></span>
+									<span class="news-comments-count-left comments-position2">17</span>
+								</div>
+
+							</article>
+
+						</article>
+					</li>
+				</ul>
+				<!--конец списка статей левой колонки-->
+				<button class="btm_all-News" type="button" aria-label="кнопка посмотреть все новости">Все
+						новости</button>
+
+			</section>
+			<!--конец секции левой колонки-->
+
+			<!--начало секции центральной колонки-->
+			<section class="column-center">
+				<!-- Заголовок центральной секции -->
+				<header>
+					<h2 class="title__section">Заголовок</h2>
+				</header>
+				<!--фоновая картинка-->
+				<img class="center-news_bcg" src="img/Layer1.png" alt="пейзаж крыма">
+				<!--главная статья центральной колонки (первая)-->
+				<article class="center-news">
+					<!--тег рубрики-->
+					<div class="link-wrapper"><a class="centerNews_heading" href="#">/ Политика</a></div>
+
+					<!--заголовок статьи-->
+					<h3 class="title_center-news">
+						<a class="title-news-center link_news" href="page-news.html">
+							В Крыму отреагировали на слова Кравчука о возврате полуострова
+						</a>
+					</h3>
+					<!--дата и время публикации-->
+					<article class="publication-date">
+						<header>
+							<h2 class="title__section">info-publication</h2>
+						</header>
+
+						<time class="date-time date" datetime="2018-06-19">19 Июня 2018</time>
+						<span class="iconTime_centerNews"></span>
+						<time class="date-time time" datetime="10:48">10:48</time>
+					</article>
+
+				</article>
+				<!--конец главной статьи-->
+
+				<section class="columnCenter_news">
+					<!-- Заголовок секции -->
+					<header>
+						<h2 class="title__section">Заголовок</h2>
+					</header>
+					<!--статья 1-->
+					<article class="second-news">
+						<div class="imageWrapper">
+							<img src="img/Layer2.png" alt="навальный">
+						</div>
+
+						<h3 class="title-news">
+							<a class="title-link" href="">
+								Алексей Навальный объявил акцию против пенсионной реформы 1&nbsp;июля
+							</a>
+						</h3>
+
+						<header>
+							<h2 class="title__section">info-publication</h2>
+						</header>
+
+						<div class="state-props-box">
+							<a class="news-item-props" href="#">/ Политика</a>
+
+							<span class="icon-time_second-news"></span>
+							<time class="date-time" datetime="10:45">10:48</time>
+
+							<span class="icon-comments-count_second-news"></span>
+							<span class="state-comments-count_second-news">15</span>
+						</div>
+
+					</article>
+
+					<!--статья 2-->
+					<article class="third-news">
+						<div class="imageWrapper">
+							<img src="img/Layer3.png" alt="паспорта" width="223" height="144">
+						</div>
+
+						<h3 class="title-news">
+							<a class="title-link" href="">
+								Дума увеличила пошлины за выдачу загранпаспортов и водительских прав
+							</a>
+						</h3>
+
+						<div class="state-props-box">
+							<a class="news-item-props" href="#">/ Политика</a>
+
+							<span class="icon-time_third-news"></span>
+							<time class="date-time" datetime="10:45">10:48</time>
+
+							<span class="icon-comments-count_third-news"></span>
+							<span class="state-comments-count_third-news">15</span>
+						</div>
+
+					</article>
+
+					<!--статья 3-->
+					<article class="fourth-news ">
+
+						<div class="imageWrapper">
+							<img src="img/Layer4.png" alt="девушка">
+						</div>
+
+						<h3 class="title-news">
+							<a class="title-link" href="">
+								В России заработал стриминговый сервис YouTube
+							</a>
+						</h3>
+
+						<div class="state-props-box">
+							<a class="news-item-props" href="#">/ Политика</a>
+
+							<span class="icon-time_fourth-news"></span>
+							<time class="date-time" datetime="10:45">10:48</time>
+
+							<span class="icon-comments-count_fourth-news"></span>
+							<span class="state-comments-count_fourth-news">15</span>
+						</div>
+
+					</article>
+					<!--статья 4-->
+					<article class="fifth-news">
+
+						<div class="imageWrapper">
+							<img src="img/Layer5.png" alt="футболист">
+						</div>
+
+						<h3 class="title-news">
+							<a class="title-link" href="">
+								Кейн признан лучшим игроком матча ЧМ-2018 Тунис — Англия
+							</a>
+						</h3>
+
+						<div class="state-props-box">
+							<a class="news-item-props" href="#">/ Политика</a>
+
+							<span class="icon-time_fifth-news"></span>
+							<time class="date-time" datetime="10:45">10:48</time>
+
+							<span class="icon-comments-count_fifth-news"></span>
+							<span class="state-comments-count_fifth-news">15</span>
+						</div>
+
+					</article>
+				</section>
+
+			</section>
+			<!--конец секции центральной колонки-->
+
+			<!--правая колонка-->
+			<aside class="column-right">
+				<!--рекламные баннеры-->
+				<a href="https://www.google.com" target="blank"><span class="banner-1"></span></a>
+				<a href="https://www.google.com" target="blank"><span class="banner-2"></span></a>
+			</aside>
+			<!--начало секции нижней колонки-->
+			<section class="bottom-column">
+				<!-- Заголовок секции нижней колонки -->
+				<header>
+					<h2 class="title__section">info-publication</h2>
+				</header>
+
+				<!--секция главной новости нижней колонки-->
+				<img class="top-news-image" src="img/Layer6.png" alt="пекин">
+				<article class="top-news-today">
+					<!--главная новость-->
+					<span class="article-state"> <a href="#">/ Политика</a> </span>
+
+					<h3 class="top-news_title">
+						<a class="title-state" href="">
+							Пекин обвинил Вашингтон в развязывании торговой войны
+						</a>
+					</h3>
+
+					<time class="date-time_top-news" datetime="2018-06-19T10:48">
+						<span class="date-top-news">19 июня 2018</span>
+						<!-- иконка часов -->
+						<span class="icon-time-top-news"></span>
+						<span class="time-top-news">10:48</span>
+					</time>
+
+					<p class="discription-news">
+						Министерство коммерции Китая заявило, что Пекин примет «качественные»
+						и «количественные» меры, если президент США Дональд Трамп введет
+						дополнительные пошлины на китайские товары
+					</p>
+
+				</article>
+				<!-- конец секции главной новости нижней колонки-->
+
+				<!--начало секции самых читаемых новостей-->
+				<section class="most-read-news">
+					<!--заголовок секции-->
+					<h2 class="best-reading-news__title">Самые читаемые новости</h2>
+					<!--начало списка статей-->
+					<ul class="news-list">
+						<!--первая статья-->
+						<li>
+							<article class="news-1 news-style">
+
+								<h3 class="news-title news-title__style-1">
+									<a href="">
+										В Турции пообещали найти альтернативу из-за
+										отказа США поставить F-35
+									</a>
+								</h3>
+
+								<span class="props article-state"> <a href="#">/ Политика</a></span>
+								<!-- иконка времени публикации -->
+								<span class="icon-clock_props"></span>
+								<time class="date-time" datetime="11:39">11:39</time>
+								<!-- иконка счетчика комментариев -->
+								<span class="icon-comments_props"></span>
+								<span class="comments-count_most-read">15</span>
+
+							</article>
+						</li>
+						<!--второя статья-->
+						<li>
+							<article class="news-2 news-style">
+
+								<h3 class="news-title news-title__style-2">
+									<a href="">
+										Назван минимальный доход для причисления к среднему классу‍
+									</a>
+								</h3>
+
+								<span class="props article-state"> <a href="#">/ Политика</a></span>
+
+								<span class="icon-clock_props"></span>
+								<time class="date-time" datetime="11:39">11:39</time>
+
+								<span class="icon-comments_props"></span>
+								<span class="comments-count_most-read">15</span>
+
+							</article>
+						</li>
+
+						<li>
+							<!--третья статья-->
+							<article class="news-3 news-style">
+
+								<h3 class="news-title news-title__style-3">
+									<a href="">
+										Представители России назвали пять ошибок гаагского трибунала по делу ЮКОСа
+									</a>
+								</h3>
+
+								<span class="props article-state"> <a href="#">/ Политика</a></span>
+								<!-- иконка времени публикации -->
+								<span class="icon-clock_props"></span>
+								<time class="date-time" datetime="11:39">11:39</time>
+								<!-- иконка счетчика комментариев -->
+								<span class="icon-comments_props"></span>
+								<span class="comments-count_most-read">15</span>
+
+							</article>
+
+						</li>
+						<!--конец третьей статьи-->
+					</ul>
+					<!--конец списка статей-->
+				</section>
+				<!--конец секции самых читаемых новостей-->
+			</section>
+			<!--конец секции нижней колонки-->
+		</div>
+		<!--конец футера-->
+
+		<!--начало футера-->
+		<section class="wrapper-footer">
+			<h2 class="title__section">Заголовок секции</h2>
+			<footer>
+				<!--навигация футера 1-->
+				<ul class="nav-footer-1">
+					<li class="home">
+						<a href="#">Главная</a>
+					</li>
+
+					<li class="policy">
+						<a href="#">Политика</a>
+					</li>
+
+					<li class="society">
+						<a href="#">Общество</a>
+					</li>
+
+					<li class="economy">
+						<a href="#">Экономика</a>
+					</li>
+
+					<li class="in-the-word">
+						<a href="#">В мире</a>
+					</li>
+				</ul>
+				<!--нафигация 2-->
+				<ul class="nav-footer-2">
+					<li class="travels">
+						<a href="#">Путешествия</a>
+					</li>
+
+					<li class="sport">
+						<a href="#">Спорт</a>
+					</li>
+
+					<li class="the-science">
+						<a href="#">Наука</a>
+					</li>
+
+					<li class="tourism">
+						<a href="#">Туризм</a>
+					</li>
+				</ul>
+				<!--лого, об агенстве, обубликовать новость-->
+
+				<ul class="about">
+
+					<li class="about-agency">
+						<div class="wrapper-logo_footer">
+								<img class="footer-logo" src="img/лого_copy.png" alt="лого футера">
+						</div>
+
+						<a href="">Об агенстве</a>
+					</li>
+
+					<li class="contacts">
+						<a href="">Контакты</a>
+					</li>
+
+					<li class="publish-news">
+						<a href="">Опубликовать новость</a>
+					</li>
+				</ul>
+				<!--блок контакты-->
+				<article class="footer_contacts">
+					<!-- Заголовок блока  -->
+					<h2 class="title__section">Контакты</h2>
+					<!--иконки соцсетей-->
+					<ul class="societies-link">
+						<li class="vk">
+							<a class="icon-vk" href="https://vk.com" target="blank" aria-label="vk.com"></a>
+						</li>
+
+						<li class="facebook">
+							<a class="icon-facebook" href="https://facebook.com" target="blank"
+								aria-label="facebook.com"></a>
+						</li>
+
+						<li class="twitter">
+							<a class="icon-twitter" href="https://twitter.com" target="blank"
+								aria-label="twitter.com"></a>
+						</li>
+
+						<li class="instagram">
+							<a class="icon-instagram" href="https://instagram.com" target="blank"
+								aria-label="instagram.com"></a>
+						</li>
+					</ul>
+					
+					<ul class="contacts">
+						<li class="tel-list">
+							<span class="icon-tel"></span>
+							<a class="tel" href="">+7 (499) 995-55-55</a>
+						</li>
+
+						<li class="mail-list">
+							<span class="icon-mail"></span>
+							<a class="mail" href=" mailto:vlad@agency.ru">info@agency.ru</a>
+						</li>
+					</ul>
+
+				</article>
+
+			</footer>
+
+			<article class="copyright">
+				<h2 class="title__section">Заголовок копирайт</h2>
+				&#169; Новостное агентство, 2017-2018 все права защищены
+			</article>
+		</section>
+		<!--конец футера-->
+		<!--конец обертки fixed-container-->
+	</main>
+
+</body>
+
+</html>
