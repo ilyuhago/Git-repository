@@ -30,32 +30,22 @@
 			</div>
 
 		</div>
-		
+
 		<div class="header-fixed">
 			<!--элементы шапки-->
 			<div class="header-items">
 
-					<img class="logo" src="../img/logo.png" alt="лого">
+				<img class="logo" src="../img/logo.png" alt="лого">
 				<!--выбор города-->
 				<a class="city-select" href="#">Москва</a>
-				<!--кнопка развернуть список городов-->
-
 				<!--дата и время-->
 				<time class="header-date-time" datetime="2019-06-19T10:48">
 					<span class="date">19 июня, вторник</span>
-
-					<!--иконка часов-->
-					<span class="icon-time"></span>
 					<!--время-->
 					<span class="time">10:48</span>
-
 				</time>
 
-				<!--иконка погоды-->
-
-				<!--погода-->
 				<div class="cloudy"> +22 &#8451;</div>
-
 				<!--поиск по сайту-->
 				<div class="cite-search-box">
 					<form action="#" name="cite-search-form">
@@ -70,7 +60,7 @@
 			<!--главное меню-->
 			<nav class="main-menu-container">
 				<ul class="main-menu">
-					<li class="main after"><a  href="#">Главная</a></li>
+					<li class="main after"><a href="#">Главная</a></li>
 					<li class="politics after"><a href="#">Политика</a></li>
 					<li class="society after"><a href="#">Общество</a></li>
 					<li class="economic after"><a href="#">Экономика</a></li>
@@ -85,48 +75,34 @@
 
 	</header>
 
-	<main class="central-container">
+	<main class="content">
 		<!--начало обертки-->
 		<div class="fixed-container">
 			<!--начало левой колонки-->
 			<section class="column-left">
-				
+				<!--заголовок секции левой колонки-->
+				<h2 class="title_daily-news">Новости дня</h2>
+
 				<div class="fixed-container__column-left">
-					<!--заголовок секции левой колонки-->
-					<h2 class="title_daily-news">Новости дня</h2>
 					<!--начало списка статей левой колонки-->
 					<ul class="column-left_list-state">
 						<li>
 							<!--статья 1-->
 							<article class="news-item">
+
 								<!--заголовок статьи-->
 								<h3 class="news-item-title">
 									<a href="" class="state-link">
 										Кот Ахилл предсказал победу российской сборной над Египтом на ЧМ-2018
 									</a>
 								</h3>
-								<!--дополнительные элементы-->
-								<article class="news-item-props">
+								<!--сылка на рубрику-->
+								<a href="#" class="link-heading">/ ЧМ по футболу</a>
 
-									<header>
-										<h2 class="title__section">info-publication</h2>
-									</header>
-									<!--сылка на рубрику-->
-									<a href="#" class="link-heading">/ ЧМ по футболу</a>
-
-									<div class="news-item-props__box">
-										<!--иконка времени публикаци-->
-
-										<!--дата публикации-->
-										<time class="date-time date-position1" datetime="10:45">10:45</time>
-
-										<!--иконка комментариев-->
-
-										<!--счетчик комментариев-->
-										<span class="news-comments-count-left comments-position1">17</span>
-									</div>
-
-								</article>
+								<div class="news-item-props__box">
+									<time class="date-time date-position1" datetime="10:45">10:45</time>
+									<span class="news-comments-count-left comments-position1">17</span>
+								</div>
 
 							</article>
 						</li>
@@ -141,23 +117,12 @@
 									</a>
 								</h3>
 
-								<article class="news-item-props">
-									<header>
-										<h2 class="title__section">info-publication</h2>
-									</header>
+								<a href="#" class="link-heading">/ Транспорт</a>
 
-									<a href="#" class="link-heading">/ Транспорт</a>
-
-									<div class="news-item-props__box">
-										<!--иконка времени публикаци-->
-	
-										<time class="date-time date-position2" datetime="10:45">10:45</time>
-										<!--иконка комментариев-->
-
-										<span class="news-comments-count-left comments-position2">17</span>
-									</div>
-
-								</article>
+								<div class="news-item-props__box">
+									<time class="date-time date-position2" datetime="10:45">10:45</time>
+									<span class="news-comments-count-left comments-position2">17</span>
+								</div>
 
 							</article>
 						</li>
@@ -172,121 +137,85 @@
 									</a>
 								</h3>
 
-								<article class="news-item-props">
+								<a href="#" class="link-heading">/ Политика</a>
 
-									<header>
-										<h2 class="title__section">info-publication</h2>
-									</header>
+								<div class="news-item-props__box">
+									<time class="date-time date-position2" datetime="10:45">10:45</time>
+									<span class="news-comments-count-left comments-position2">17</span>
+								</div>
 
-									<a href="#" class="link-heading">/ Политика</a>
-
-									<div class="news-item-props__box">
-										<!--иконка времени публикаци-->
-
-										<time class="date-time date-position2" datetime="10:45">10:45</time>
-										<!--иконка комментариев-->
-
-										<span class="news-comments-count-left comments-position2">17</span>
-									</div>
-
-								</article>
 							</article>
 						</li>
 
 						<li>
 							<!--статья 4-->
 							<article class="news-item">
+
 								<h3 class="news-item-title">
 									<a href="" class="state-link">
 										Летние кафе Москвы временно закроются из-за непогоды
 									</a>
 								</h3>
 
-								<article class="news-item-props">
+								<h3 class="title-section">Заголовкок секции</h3>
 
-									<header>
-										<h2 class="title__section">info-publication</h2>
-									</header>
+								<a href="#" class="link-heading">/ Погода</a>
 
-									<a href="#" class="link-heading">/ Погода</a>
+								<div class="news-item-props__box">
+									<time class="date-time date-position2" datetime="10:45">10:45</time>
+									<span class="news-comments-count-left comments-position2">17</span>
+								</div>
 
-									<div class="news-item-props__box">
-										<!--иконка времени публикаци-->
-
-										<time class="date-time date-position2" datetime="10:45">10:45</time>
-										<!--иконка комментариев-->
-
-										<span class="news-comments-count-left comments-position2">17</span>
-									</div>
-
-								</article>
 							</article>
 						</li>
 
 						<li>
 							<!--статья 5-->
 							<article class="news-item">
+
 								<h3 class="news-item-title">
 									<a href="" class="state-link">
 										Комплексное благоустройство Щелковского шоссе завершится в июне
 									</a>
 								</h3>
 
-								<article class="news-item-props">
+								<h3 class="title-section">Заголовкок секции</h3>
 
-									<header>
-										<h2 class="title__section">Заголовок</h2>
-									</header>
+								<a href="#" class="link-heading">/ Транспорт</a>
 
-									<a href="#" class="link-heading">/ Транспорт</a>
+								<div class="news-item-props__box">
+									<time class="date-time date-position2" datetime="10:45">10:45</time>
+									<span class="news-comments-count-left comments-position2">17</span>
+								</div>
 
-									<div class="news-item-props__box">
-										<!--иконка времени публикаци-->
-
-										<time class="date-time date-position2" datetime="10:45">10:45</time>
-										<!--иконка комментариев-->
-
-										<span class="news-comments-count-left comments-position2">17</span>
-									</div>
-
-								</article>
 							</article>
 						</li>
 
 						<li>
 							<!--статья 6-->
 							<article class="news-item">
+
 								<h3 class="news-item-title">
 									<a href="" class="state-link">
 										В Москве назвали самое популярное мороженое у болельщиков ЧМ-2018
 									</a>
 								</h3>
 
-								<article class="news-item-props">
+								<h3 class="title-section">Заголовкок секции</h3>
 
-									<header>
-										<h2 class="title__section">info-publication</h2>
-									</header>
+								<a href="#" class="link-heading">/ Транспорт</a>
 
-									<a href="#" class="link-heading">/ Транспорт</a>
-
-									<div class="news-item-props__box">
-										<!--иконка времени публикаци-->
-				
-										<time class="date-time date-position2" datetime="10:45">10:45</time>
-										<!--иконка комментариев-->
-
-										<span class="news-comments-count-left comments-position2">17</span>
-									</div>
-
-								</article>
+								<div class="news-item-props__box">
+									<time class="date-time date-position2" datetime="10:45">10:45</time>
+									<span class="news-comments-count-left comments-position2">17</span>
+								</div>
 
 							</article>
 						</li>
 					</ul>
 					<!--конец списка статей левой колонки-->
 					<button class="btm_all-News" type="button" aria-label="кнопка посмотреть все новости">Все
-							новости</button>
+						новости</button>
 				</div>
 				<!-- конец fixed-conteiner -->
 			</section>
@@ -294,18 +223,16 @@
 
 			<!--начало секции центральной колонки-->
 			<section class="column-center">
-	
-				<div class="fixed-container__column-center">
-					
-					<!-- Заголовок центральной секции -->
+				<h2 class="title-section">Заголовок секии</h2>
 
+				<div class="fixed-container__column-center">
 					<!--фоновая картинка-->
 					<img class="center-news_bcg" src="img/Layer1.png" alt="пейзаж крыма">
 					<!--главная статья центральной колонки (первая)-->
 					<article class="center-news">
+
 						<!--тег рубрики-->
 						<div class="link-wrapper"><a class="centerNews_heading" href="#">/ Политика</a></div>
-
 						<!--заголовок статьи-->
 						<h3 class="title_center-news">
 							<a class="title-news-center link_news" href="page-news.html">
@@ -313,26 +240,16 @@
 							</a>
 						</h3>
 						<!--дата и время публикации-->
-						<article class="publication-date">
-							<header>
-								<h2 class="title__section">info-publication</h2>
-							</header>
-
-							<time class="date-time date" datetime="2018-06-19">19 Июня 2018</time>
-
-							<time class="date-time time" datetime="10:48">10:48</time>
-						</article>
+						<time class="date-time date" datetime="2018-06-19">19 Июня 2018</time>
+						<time class="date-time time" datetime="10:48">10:48</time>
 
 					</article>
 					<!--конец главной статьи-->
 
 					<div class="columnCenter_news">
-						<!-- Заголовок секции -->
-						<header>
-							<h2 class="title__section">Заголовок</h2>
-						</header>
 						<!--статья 1-->
 						<article class="second-news">
+
 							<div class="imageWrapper">
 								<img src="img/Layer2.png" alt="навальный">
 							</div>
@@ -343,15 +260,10 @@
 								</a>
 							</h3>
 
-							<header>
-								<h2 class="title__section">info-publication</h2>
-							</header>
-
 							<div class="state-props-box">
 								<a class="news-item-props" href="#">/ Политика</a>
 
 								<time class="date-time" datetime="10:45">10:48</time>
-
 								<span class="state-comments-count_second-news">15</span>
 							</div>
 
@@ -359,6 +271,7 @@
 
 						<!--статья 2-->
 						<article class="third-news">
+
 							<div class="imageWrapper">
 								<img src="img/Layer3.png" alt="паспорта" width="223" height="144">
 							</div>
@@ -373,7 +286,6 @@
 								<a class="news-item-props" href="#">/ Политика</a>
 
 								<time class="date-time" datetime="10:45">10:48</time>
-
 								<span class="state-comments-count_third-news">15</span>
 							</div>
 
@@ -396,8 +308,6 @@
 								<a class="news-item-props" href="#">/ Политика</a>
 
 								<time class="date-time" datetime="10:45">10:48</time>
-
-
 								<span class="state-comments-count_fourth-news">15</span>
 							</div>
 
@@ -419,7 +329,6 @@
 								<a class="news-item-props" href="#">/ Политика</a>
 
 								<time class="date-time" datetime="10:45">10:48</time>
-
 								<span class="state-comments-count_fifth-news">15</span>
 							</div>
 
@@ -439,14 +348,11 @@
 			<!--начало секции нижней колонки-->
 			<section class="bottom-column">
 				<!-- Заголовок секции нижней колонки -->
-				<header>
-					<h2 class="title__section">info-publication</h2>
-				</header>
-
+				<h2 class="title-section">Заголовок секии</h2>
 				<!--секция главной новости нижней колонки-->
 				<img class="top-news-image" src="img/Layer6.png" alt="пекин">
 				<article class="top-news-today">
-					<!--главная новость-->
+
 					<span class="article-state"> <a href="#">/ Политика</a> </span>
 
 					<h3 class="top-news_title">
@@ -457,8 +363,6 @@
 
 					<time class="date-time_top-news" datetime="2018-06-19T10:48">
 						<span class="date-top-news">19 июня 2018</span>
-						<!-- иконка часов -->
-
 						<span class="time-top-news">10:48</span>
 					</time>
 
@@ -489,11 +393,8 @@
 								</h3>
 
 								<span class="props article-state"> <a href="#">/ Политика</a></span>
-								<!-- иконка времени публикации -->
-	
-								<time class="date-time" datetime="11:39">11:39</time>
-								<!-- иконка счетчика комментариев -->
 
+								<time class="date-time" datetime="11:39">11:39</time>
 								<span class="comments-count_most-read">15</span>
 
 							</article>
@@ -510,10 +411,7 @@
 
 								<span class="props article-state"> <a href="#">/ Политика</a></span>
 
-
 								<time class="date-time" datetime="11:39">11:39</time>
-
-
 								<span class="comments-count_most-read">15</span>
 
 							</article>
@@ -530,11 +428,8 @@
 								</h3>
 
 								<span class="props article-state"> <a href="#">/ Политика</a></span>
-								<!-- иконка времени публикации -->
 
 								<time class="date-time" datetime="11:39">11:39</time>
-								<!-- иконка счетчика комментариев -->
-	
 								<span class="comments-count_most-read">15</span>
 
 							</article>
@@ -548,122 +443,119 @@
 			</section>
 			<!--конец секции нижней колонки-->
 		</div>
-		<!--конец футера-->
-
-		<!--начало футера-->
-		<section class="wrapper-footer">
-			<h2 class="title__section">Заголовок секции</h2>
-			<footer>
-				<!--навигация футера 1-->
-				<ul class="nav-footer-1">
-					<li class="home">
-						<a href="#">Главная</a>
-					</li>
-
-					<li class="policy">
-						<a href="#">Политика</a>
-					</li>
-
-					<li class="society">
-						<a href="#">Общество</a>
-					</li>
-
-					<li class="economy">
-						<a href="#">Экономика</a>
-					</li>
-
-					<li class="in-the-word">
-						<a href="#">В мире</a>
-					</li>
-				</ul>
-				<!--нафигация 2-->
-				<ul class="nav-footer-2">
-					<li class="travels">
-						<a href="#">Путешествия</a>
-					</li>
-
-					<li class="sport">
-						<a href="#">Спорт</a>
-					</li>
-
-					<li class="the-science">
-						<a href="#">Наука</a>
-					</li>
-
-					<li class="tourism">
-						<a href="#">Туризм</a>
-					</li>
-				</ul>
-				<!--лого, об агенстве, обубликовать новость-->
-
-				<ul class="about">
-
-					<li class="about-agency">
-						<div class="wrapper-logo_footer">
-								<img class="footer-logo" src="img/лого_copy.png" alt="лого футера">
-						</div>
-
-						<a href="">Об агенстве</a>
-					</li>
-
-					<li class="contacts">
-						<a href="">Контакты</a>
-					</li>
-
-					<li class="publish-news">
-						<a href="">Опубликовать новость</a>
-					</li>
-				</ul>
-				<!--блок контакты-->
-				<article class="footer_contacts">
-					<!-- Заголовок блока  -->
-					<h2 class="title__section">Контакты</h2>
-					<!--иконки соцсетей-->
-					<ul class="societies-link">
-						<li class="vk">
-							<a class="icon-vk" href="https://vk.com" target="blank" aria-label="vk.com"></a>
-						</li>
-
-						<li class="facebook">
-							<a class="icon-facebook" href="https://facebook.com" target="blank"
-								aria-label="facebook.com"></a>
-						</li>
-
-						<li class="twitter">
-							<a class="icon-twitter" href="https://twitter.com" target="blank"
-								aria-label="twitter.com"></a>
-						</li>
-
-						<li class="instagram">
-							<a class="icon-instagram" href="https://instagram.com" target="blank"
-								aria-label="instagram.com"></a>
-						</li>
-					</ul>
-					
-					<ul class="contacts">
-						<li class="tel-list">
-
-							<a class="tel" href="">+7 (499) 995-55-55</a>
-						</li>
-
-						<li class="mail-list">
-		
-							<a class="mail" href=" mailto:vlad@agency.ru">info@agency.ru</a>
-						</li>
-					</ul>
-
-				</article>
-
-			</footer>
-
-			<article class="copyright">
-				<h2 class="title__section">Заголовок копирайт</h2>
-				&#169; Новостное агентство, 2017-2018 все права защищены
-			</article>
-		</section>
-		<!--конец футера-->
-		<!--конец обертки fixed-container-->
+		<!-- конец fixed-container -->
 	</main>
+	<!--начало футера-->
+	<section class="wrapper-footer">
+		<h2 class="title__section">Заголовок секции</h2>
+		<footer>
+			<!--навигация футера 1-->
+			<ul class="nav-footer-1">
+				<li class="home">
+					<a href="#">Главная</a>
+				</li>
+
+				<li class="policy">
+					<a href="#">Политика</a>
+				</li>
+
+				<li class="society">
+					<a href="#">Общество</a>
+				</li>
+
+				<li class="economy">
+					<a href="#">Экономика</a>
+				</li>
+
+				<li class="in-the-word">
+					<a href="#">В мире</a>
+				</li>
+			</ul>
+			<!--нафигация 2-->
+			<ul class="nav-footer-2">
+				<li class="travels">
+					<a href="#">Путешествия</a>
+				</li>
+
+				<li class="sport">
+					<a href="#">Спорт</a>
+				</li>
+
+				<li class="the-science">
+					<a href="#">Наука</a>
+				</li>
+
+				<li class="tourism">
+					<a href="#">Туризм</a>
+				</li>
+			</ul>
+			<!--лого, об агенстве, обубликовать новость-->
+
+			<ul class="about">
+
+				<li class="about-agency">
+					<div class="wrapper-logo_footer">
+						<img class="footer-logo" src="img/лого_copy.png" alt="лого футера">
+					</div>
+
+					<a href="">Об агенстве</a>
+				</li>
+
+				<li class="contacts">
+					<a href="">Контакты</a>
+				</li>
+
+				<li class="publish-news">
+					<a href="">Опубликовать новость</a>
+				</li>
+			</ul>
+			<!--блок контакты-->
+			<article class="footer_contacts">
+				<!-- Заголовок блока  -->
+				<h2 class="title__section">Контакты</h2>
+				<!--иконки соцсетей-->
+				<ul class="societies-link">
+					<li class="vk">
+						<a class="icon-vk" href="https://vk.com" target="blank" aria-label="vk.com"></a>
+					</li>
+
+					<li class="facebook">
+						<a class="icon-facebook" href="https://facebook.com" target="blank"
+							aria-label="facebook.com"></a>
+					</li>
+
+					<li class="twitter">
+						<a class="icon-twitter" href="https://twitter.com" target="blank" aria-label="twitter.com"></a>
+					</li>
+
+					<li class="instagram">
+						<a class="icon-instagram" href="https://instagram.com" target="blank"
+							aria-label="instagram.com"></a>
+					</li>
+				</ul>
+
+				<ul class="contacts">
+					<li class="tel-list">
+
+						<a class="tel" href="">+7 (499) 995-55-55</a>
+					</li>
+
+					<li class="mail-list">
+						<a class="mail" href=" mailto:vlad@agency.ru">info@agency.ru</a>
+					</li>
+				</ul>
+
+			</article>
+
+		</footer>
+
+		<article class="copyright">
+			<h2 class="title__section">Заголовок копирайт</h2>
+			&#169; Новостное агентство, 2017-2018 все права защищены
+		</article>
+	</section>
+	<!--конец футера-->
+	<!--конец обертки fixed-container-->
 
 </body>
 
